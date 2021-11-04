@@ -31,7 +31,7 @@ server = http.createServer( function(req, res)
             var num = parseInt(data.player.state.round_kills)+parseInt(data.player.state.round_killhs);
   					var ts = Date.now().toString().substring(4, 12);
   					//console.log(ts +", " + name + ",  "+ num);
-            console.log(ts.substring(3) +", " + name + ",  "+ num);
+            console.log(ts.substring(4) +", " + name + ",  "+ num);
   					arrayData.push([ts, name, num]);
   					newData = true;
           }

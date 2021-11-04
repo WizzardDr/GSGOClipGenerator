@@ -15,8 +15,8 @@ kills = []
 #print(subprocess.run(["stat",videoFilename]))
 #wmic datafile where name=C:\\Users\\Matt\\Desktop\\DemoGameplay\\Clip Generator\\input.avi get creationdate | findstr /brc:[0-9]
 fileTime = round(float(os.path.getctime(videoFilename)),3)*1000
-print(str(fileTime)[7:-6])
-fileTimeStartDigits = str(fileTime)[4:-8]
+print(str(fileTime)[7:-3])
+fileTimeStartDigits = str(fileTime)[4:-7]
 timeOffset = int(fileTimeStartDigits + str(input("Enter time offset (time at the bottem of the terminal): ")))
 
 

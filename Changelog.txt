@@ -1,0 +1,4 @@
+V002
+-stability and code fixing
+-added support for endlesss rounds in one recording (README Recording 7.)
+-obs setup fps increase form 30 to 60 (README Setup: 1. d.)

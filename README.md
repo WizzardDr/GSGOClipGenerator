@@ -1,4 +1,4 @@
-# GSGOClipGenerator
+# GSGO Clip Generator
 A system to cut extract kills form gameplay recordings using Global Offensive Game State Integration.
 
 The system is baced around synchronising the recording from OBS with the data from the Game State Integration. It is designed to generate 1 second long clips with the kill half way through.
